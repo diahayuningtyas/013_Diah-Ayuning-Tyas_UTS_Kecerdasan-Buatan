@@ -13,8 +13,8 @@ weights = [0.5,1.6,-2.7,0.8,-4.3,-0.9,2.5,1.9,-2.4,1.7]
 #Inisialisasi bias berdasarkan panjang neuron
 bias = 8
 
-# Menghitung output = (input*weight)+bias
+#Menghitung output menggunakan rumus = (input*weight)+bias
 output = np.dot(weights, inputs) + bias
 
-# cetak output
+#Mencetak output
 print(output)
